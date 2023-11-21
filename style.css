@@ -1,0 +1,143 @@
+*{
+    margin:  0;
+    padding: 0;
+    font-family:'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: space-between;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: gray;
+}
+    
+
+header input{
+    width: 400px;
+    height: 55px;
+    margin-right: 30px;
+    padding-left: 10px;
+    font-size: 24px;
+    outline: 0;
+}
+
+header button{
+    outline: 0;
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+    cursor: pointer;
+}
+
+.section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1100px;
+    background-color: lightblue;
+}
+
+.neptune-orbit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 900px;
+    width: 900px;
+    border-radius: 50%;
+    border: 10px solid black;
+    margin-top: -100px;
+}
+
+.uranus-orbit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 775px;
+    width: 775px;
+    border-radius: 50%;
+    border: 10px solid black;
+}
+
+.saturn-orbit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 650px;
+    width: 650px;
+    border-radius: 50%;
+    border: 10px solid black;
+}
+
+.jupiter-orbit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 495px;
+    width: 495px;
+    border-radius: 50%;
+    border: 10px solid black;
+}
+
+.mars-orbit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+    border: 10px solid black;
+}
+
+.earth-orbit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    border: 10px solid black;
+}
+.venus-orbit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 175px;
+    width: 175px;
+    border-radius: 50%;
+    border: 10px solid black;
+}
+
+.mercury-orbit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 10px solid black;
+}
+
+.stats-box{
+    align-self: flex-start;
+    background-color: white;
+    height: 100px;
+    width: 100px;
+}
+
+
+
+
+footer{
+    height: 110px;
+    background-color: red;
+}
