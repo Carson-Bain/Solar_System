@@ -1,1 +1,2 @@
 # Solar_System
+My first non-tutorial based project. My plan is to use Solar System OpenData to build a model of our solar system and when a planet is clicked on it displays certain information about that planet.
