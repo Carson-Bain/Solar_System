@@ -9,6 +9,7 @@ async function planetInfo(planet) {
     var data = await response.json();
 
     console.log(data);
+
 }
 
 
